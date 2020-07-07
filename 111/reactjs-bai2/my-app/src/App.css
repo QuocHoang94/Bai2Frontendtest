@@ -1,0 +1,129 @@
+.App {
+  background: url("./img/622.jpg");
+  height: 700px;
+  background-size: cover;
+  position: relative;
+}
+.part1 {
+  border: 2px solid #9e9e9ead;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  position: absolute;
+  width: 42em;
+  height: 42em;
+  margin: 14px 234px;
+}
+.hinhanhpart1 {
+  position: absolute;
+}
+/* img.imgPart1 {
+  width: 50px;
+  border-radius: 28px;
+} */
+img.imgPart1 {
+  width: 63px;
+  border-radius: 33px;
+  margin: 567px 102px;
+}
+.part2 {
+  border: 2px solid #9e9e9ead;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  position: absolute;
+  width: 32em;
+  height: 32em;
+  margin: 96px 312px;
+}
+img.imgPart2 {
+  border-radius: 33px;
+  width: 50px;
+  border-radius: 33px;
+  position: absolute;
+  margin: 410px 408px;
+}
+.hinhanhpart2.second {
+  position: absolute;
+  margin: -340px 20px;
+}
+.part3 {
+  border: 2px solid #9e9e9ead;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  height: 25em;
+  width: 25em;
+  position: absolute;
+  margin: 144px 374px;
+}
+img.imgPart3.first {
+  width: 45px;
+  border-radius: 33px;
+  margin: 108px -11px;
+}
+img.imgPart3.second {
+  width: 45px;
+  border-radius: 33px;
+  margin: 110px 178px;
+}
+img.imgPart3.thirst {
+  width: 45px;
+  border-radius: 33px;
+  margin: -437px 352px;
+  position: absolute;
+}
+.part4 {
+  border: 2px solid #9e9e9ead;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  position: absolute;
+  width: 32em;
+  height: 32em;
+  margin: 96px 312px;
+}
+.part4 {
+  border: 2px solid #9e9e9ead;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  position: absolute;
+  width: 18em;
+  height: 18em;
+  margin: 190px 429px;
+}
+img.imgPart4.first {
+  width: 32px;
+  border-radius: 33px;
+  margin: 222px 20px;
+}
+img.imgPart4.second {
+  width: 32px;
+  border-radius: 33px;
+  margin: -276px 250px;
+  position: absolute;
+}
+.center5 {
+  border: 2px solid #fa0b37;
+  border-radius: 50%;
+  box-shadow: 0.375em 0.375em 0 0 rgba(15, 28, 63, 0.125);
+  position: absolute;
+  width: 12em;
+  height: 12em;
+  margin: 234px 476px;
+}
+img.imgcenter {
+  position: absolute;
+  margin: 47px 36px;
+  border-radius: 50px;
+}
+.container.borderdiv {
+  position: absolute;
+  z-index: 1;
+}
+@media (max-width: 576px) {
+  .App {
+    width: 221%;
+  }
+  .container.borderdiv {
+    position: absolute;
+    z-index: 1;
+    margin: 7px -126px;
+  }
+}
